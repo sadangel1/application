@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: ${{ github.ref == 'refs/heads/main' }}
-          tags: minhkhoa0502/learning_repo:${{ github.sha }}
+          tags: thoigian15/demo:${{ github.sha }}
 
   deploy:
     runs-on: ubuntu-latest
