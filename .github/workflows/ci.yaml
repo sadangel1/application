@@ -39,7 +39,7 @@ jobs:
       - name: Fetch Service
         uses: actions/checkout@v4
         with:
-          repository: 200lab-Education/kubernetes
+          repository: sadangel1/manifest
           token: ${{ secrets.ACCESS_TOKEN }}
 
       - name: Modify YAML file
